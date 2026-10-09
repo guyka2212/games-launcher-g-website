@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>G Launcher - games &amp; software, no account needed</title>
+  <meta name="description" content="G Launcher is a free games and software launcher for Windows. No account, no sign-in: install, play and update with one button.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top" aria-label="G Launcher home">
+      <img src="assets/logo.svg" alt="" width="34" height="34">
+      <span>G Launcher</span>
+    </a>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#store">Store</a>
+      <a href="#install">How to install</a>
+      <a href="#faq">Help</a>
+      <a class="nav-cta" href="https://github.com/guyka2212/games-launcher-g-website/releases/latest/download/GLauncherSetup.exe">Download</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="kicker">G A M E S &nbsp; &amp; &nbsp; S O F T W A R E</p>
+        <h1>All the games.<br>One launcher.<br><span>No account.</span></h1>
+        <p class="lead">G Launcher is a free launcher for Windows. Pick a game or app, press <b>Install</b>, then <b>Play</b>. Updates show up by themselves. No sign-up, no password, no email.</p>
+        <div class="download-box" id="download">
+          <a class="btn-yellow" href="https://github.com/guyka2212/games-launcher-g-website/releases/latest/download/GLauncherSetup.exe">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0l-4.5-4.5M12 14l4.5-4.5M4 17v3h16v-3" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Download for Windows
+          </a>
+          <p class="download-meta">Version <b id="setup-version">1.1.0</b> &middot; <span id="setup-size">42 MB</span> &middot; Windows 10 / 11, 64-bit &middot; Free</p>
+        </div>
+      </div>
+      <figure class="window">
+        <div class="window-bar">
+          <img src="assets/logo.svg" alt="" width="14" height="14">
+          <span>G Launcher</span>
+          <i aria-hidden="true">&#x2014;</i><i aria-hidden="true">&#x2610;</i><i aria-hidden="true">&#x2715;</i>
+        </div>
+        <img src="assets/launcher-screenshot.png" width="1120" height="732"
+             alt="The G Launcher window: a library list on the left, and on the right the store page of VrFsim Controller Connect with an Install button, preview picture, details and description.">
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <div class="wrap">
+      <h2><span class="num">1.</span> What it does</h2>
+      <div class="features">
+        <article>
+          <h3>No accounts, ever</h3>
+          <p>Open it and start playing. Nothing to sign up for and nothing to log in to, and the launcher doesn't collect anything about you.</p>
+        </article>
+        <article>
+          <h3>One-button install</h3>
+          <p>Every game and app has a store page with pictures and a description. Press <b>Install</b>, wait for the bar, press <b>Play</b>.</p>
+        </article>
+        <article>
+          <h3>Automatic updates</h3>
+          <p>When a new version comes out, an orange <b>Update</b> button appears. One click and you're on the latest build.</p>
+        </article>
+        <article>
+          <h3>Quest &amp; Android too</h3>
+          <p>VR and Android apps install straight to your headset or phone over the USB cable, with developer mode on.</p>
+        </article>
+        <article>
+          <h3>Works offline</h3>
+          <p>Games you've installed keep working without internet, even if they're later taken out of the store.</p>
+        </article>
+        <article>
+          <h3>Desktop shortcuts</h3>
+          <p>After a game installs, G Launcher asks whether to put a shortcut on your desktop, so you can start it in one click.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="store">
+    <div class="wrap">
+      <h2><span class="num">2.</span> In the store right now</h2>
+      <p class="muted">This list is live from the same catalog the launcher uses. To play any of these, install G Launcher and press Install.</p>
+      <div id="store-status" class="store-status">Loading the store...</div>
+      <div id="store-grid" class="store-grid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="install">
+    <div class="wrap">
+      <h2><span class="num">3.</span> How to install</h2>
+      <ol class="steps">
+        <li>
+          <h3>Download</h3>
+          <p>Press <a href="https://github.com/guyka2212/games-launcher-g-website/releases/latest/download/GLauncherSetup.exe">Download for Windows</a> to get <code>GLauncherSetup.exe</code>.</p>
+        </li>
+        <li>
+          <h3>Run the setup</h3>
+          <p>Open the file and press <b>Install</b>. No administrator rights needed. If Windows shows <i>&ldquo;Windows protected your PC&rdquo;</i>, press <b>More info &rarr; Run anyway</b>. This appears because the setup is new and not code-signed yet.</p>
+        </li>
+        <li>
+          <h3>Play</h3>
+          <p>G Launcher opens with the store. Choose a game, press <b>Install</b>, then <b>Play</b>. You'll find it in the Start menu next time.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section alt" id="faq">
+    <div class="wrap">
+      <h2><span class="num">4.</span> Help</h2>
+      <div class="faq">
+        <details>
+          <summary>Is it free?</summary>
+          <p>Yes. The launcher and everything in its store are free.</p>
+        </details>
+        <details>
+          <summary>Do I need an account?</summary>
+          <p>No. There are no accounts at all, so you never have to give a name, email or password.</p>
+        </details>
+        <details>
+          <summary>Windows says &ldquo;Windows protected your PC&rdquo;. Is it safe?</summary>
+          <p>That message shows for programs that aren't code-signed yet. It isn't a virus warning. Press <b>More info</b>, then <b>Run anyway</b>.</p>
+        </details>
+        <details>
+          <summary>Where are games installed?</summary>
+          <p>By default in <code>%LOCALAPPDATA%\GLauncher\library</code>. You can change the folder in <b>File &rarr; Settings</b> inside the launcher.</p>
+        </details>
+        <details>
+          <summary>How do I put a VR game on my Quest?</summary>
+          <p>Turn on developer mode on the headset, plug it into the PC with a USB-C cable and allow USB debugging. Then press <b>Install on device</b> in the launcher. The game appears under <b>Library &rarr; Unknown Sources</b>. The launcher needs <code>adb</code> (Android platform-tools, or Meta Quest Developer Hub) on the PC for this.</p>
+        </details>
+        <details>
+          <summary>How do I uninstall it?</summary>
+          <p>Windows Settings &rarr; Apps &rarr; Installed apps &rarr; <b>G Launcher</b> &rarr; Uninstall. You'll be asked whether to also delete the games you installed.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span class="brand small"><img src="assets/logo.svg" alt="" width="22" height="22"> G Launcher</span>
+    <span>Made by guyka2212 &middot; <a href="https://github.com/guyka2212/games-launcher-g-apps">Apps catalog on GitHub</a></span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
